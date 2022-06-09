@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0609 ver.2" />
+    <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0609 ver.2">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap02/section3/AnyArgTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap02/section3/AnyCastin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap02/section3/NumberTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap02/section3/isCheck.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/MaxFunc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/sumFunc.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chap02/section3/SafeCallandElvis.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chap02/section3/SafeCallandElvis.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +28,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="FxmlFile" />
         <option value="Kotlin File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +55,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/htbeyond/IdeaProjects/KotlinProgramming/src/main/kotlin/chap03/section1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,44 +66,48 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\htbeyond\IdeaProjects\KotlinProgramming\src\main\kotlin\chap03\section1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\htbeyond\IdeaProjects\KotlinProgramming\src\main\kotlin\chap03\section1" />
       <recent name="C:\Users\htbeyond\IdeaProjects\KotlinProgramming\src\main\kotlin" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="edu" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SafeCallandElvisKt">
-    <configuration name="DefaultPackageKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.section1.DefaultPackageKt" />
+  <component name="RunManager" selected="Kotlin.MaxFuncKt">
+    <configuration name="AnyArgTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.section3.AnyArgTestKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.section3.NullTestKt" />
+    <configuration name="AnyCastinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.section3.AnyCastinKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SafeCallandElvisKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.section3.SafeCallandElvisKt" />
+    <configuration name="IsCheckKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.section3.IsCheckKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.secion2.StringTestKt" />
+    <configuration name="MaxFuncKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap03.section1.MaxFuncKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValVarKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.secion2.ValVarKt" />
+    <configuration name="SumFuncKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap03.section1.SumFuncKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.SafeCallandElvisKt" />
-        <item itemvalue="Kotlin.NullTestKt" />
-        <item itemvalue="Kotlin.StringTestKt" />
-        <item itemvalue="Kotlin.ValVarKt" />
-        <item itemvalue="Kotlin.DefaultPackageKt" />
+        <item itemvalue="Kotlin.MaxFuncKt" />
+        <item itemvalue="Kotlin.SumFuncKt" />
+        <item itemvalue="Kotlin.AnyArgTestKt" />
+        <item itemvalue="Kotlin.AnyCastinKt" />
+        <item itemvalue="Kotlin.IsCheckKt" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +131,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654740567550</updated>
-      <workItem from="1654740568824" duration="7405000" />
+      <workItem from="1654740568824" duration="9611000" />
+      <workItem from="1654759078941" duration="758000" />
     </task>
     <task id="LOCAL-00001" summary="0609 ver.1">
       <created>1654750457676</created>
@@ -129,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654756834809</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0609 ver.2">
+      <created>1654757148910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654757148910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
