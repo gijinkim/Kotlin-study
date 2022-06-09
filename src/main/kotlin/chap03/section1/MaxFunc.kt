@@ -10,9 +10,18 @@ fun main() {
     val result:Int
 
     result = max(num1, num2)
+    add("kim")
 
     println(result)
 }
+
+fun printSum(a:Int, b:Int) {
+    println("sum of $a and $b is ${a + b}")
+}
+
+//fun add(name:String, email: String = "default"){
+//
+//}
 
 
 
