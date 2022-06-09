@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0609 ver.3">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/DefaultParameter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/FucFunc.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/FuncArgument.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/HighOrderTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/HighOrderTest2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/HighOrderTest3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/NameParam.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/VarargsTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section3/CallByName.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section3/CallByValue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section3/FunctionReference.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section3/ParamCount.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section3/TwoLambdaParam.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section4/LockHighOrder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/MaxFunc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/MaxFunc.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/sumFunc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section1/sumFunc.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/htbeyond/IdeaProjects/KotlinProgramming/src/main/kotlin/chap03/section1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/htbeyond/IdeaProjects/KotlinProgramming/src/main/kotlin/chap03/section1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\htbeyond\IdeaProjects\KotlinProgramming\src\main\kotlin\chap03\section1" />
@@ -85,7 +74,7 @@
       <recent name="edu" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TwoLambdaParamKt">
+  <component name="RunManager" selected="Kotlin.LockHighOrderKt">
     <configuration name="CallByNameKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap03.section3.CallByNameKt" />
       <module name="KotlinProgramming.main" />
@@ -93,15 +82,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallByValueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap03.section3.CallByValueKt" />
+    <configuration name="FunctionReferenceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap03.section3.FunctionReferenceKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionReferenceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap03.section3.FunctionReferenceKt" />
+    <configuration name="LockHighOrderKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap03.section4.LockHighOrderKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LockHighOrderKt" />
         <item itemvalue="Kotlin.TwoLambdaParamKt" />
         <item itemvalue="Kotlin.ParamCountKt" />
         <item itemvalue="Kotlin.FunctionReferenceKt" />
         <item itemvalue="Kotlin.CallByNameKt" />
-        <item itemvalue="Kotlin.CallByValueKt" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +130,8 @@
       <updated>1654740567550</updated>
       <workItem from="1654740568824" duration="9611000" />
       <workItem from="1654759078941" duration="7355000" />
+      <workItem from="1654781098598" duration="107000" />
+      <workItem from="1654781222230" duration="1117000" />
     </task>
     <task id="LOCAL-00001" summary="0609 ver.1">
       <created>1654750457676</created>
