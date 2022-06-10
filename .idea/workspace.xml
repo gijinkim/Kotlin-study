@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0610 ver.1">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section3/InlineLambdaReturn.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section3/Problem1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section3/Problem2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section3/Problem3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap05/section1/BirdClassDefine.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap05/section2/BirdPrimaryConstructor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap05/section2/BirdSecondaryConstructor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap05/section2/PersonPriSeconRef.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap05/section2/PersonThisSuper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/NormalGetterSetter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0610 ver.2">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/PropertyOverride.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +74,7 @@
       <recent name="edu" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BirdSecondaryConstructorKt">
+  <component name="RunManager" selected="Kotlin.PropertyOverrideKt">
     <configuration name="BirdClassDefineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap05.section1.BirdClassDefineKt" />
       <module name="KotlinProgramming.main" />
@@ -94,13 +84,6 @@
     </configuration>
     <configuration name="BirdSecondaryConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap05.section2.BirdSecondaryConstructorKt" />
-      <module name="KotlinProgramming.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap04.section3.Problem1Kt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,13 +103,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PropertyOverrideKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap06.PropertyOverrideKt" />
+      <module name="KotlinProgramming.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PropertyOverrideKt" />
         <item itemvalue="Kotlin.BirdSecondaryConstructorKt" />
         <item itemvalue="Kotlin.BirdClassDefineKt" />
         <item itemvalue="Kotlin.Problem3Kt" />
         <item itemvalue="Kotlin.Problem2Kt" />
-        <item itemvalue="Kotlin.Problem1Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +133,7 @@
       <workItem from="1654781098598" duration="107000" />
       <workItem from="1654781222230" duration="1117000" />
       <workItem from="1654823538243" duration="2206000" />
-      <workItem from="1654825896633" duration="18631000" />
+      <workItem from="1654825896633" duration="19125000" />
     </task>
     <task id="LOCAL-00001" summary="0609 ver.1">
       <created>1654750457676</created>
@@ -180,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654842597966</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="0610 ver.2">
+      <created>1654853554273</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654853554273</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +199,7 @@
     <MESSAGE value="0609 ver.2" />
     <MESSAGE value="0609 ver.3" />
     <MESSAGE value="0610 ver.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="0610 ver.1" />
+    <MESSAGE value="0610 ver.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="0610 ver.2" />
   </component>
 </project>
