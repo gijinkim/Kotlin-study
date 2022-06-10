@@ -4,26 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0609 ver.4">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section5/ExtensionFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section5/InfixFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section5/InlineFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section5/LocalFunctionRange.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section5/LocalReturn.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section5/NoinlineTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section5/NormalFactorial.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section6/GlobalLocalVars.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section1/ForSum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section1/IfElseifCondition.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section1/WhenAnyCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section1/WhenArgs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section1/WhenNoArgs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section2/ForOddSum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section2/ForTriangle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0610 ver.1">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section3/InlineLambdaReturn.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section3/Problem1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section3/Problem2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap04/section3/Problem3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap05/section1/BirdClassDefine.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap05/section2/BirdPrimaryConstructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap05/section2/BirdSecondaryConstructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap05/section2/PersonPriSeconRef.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap05/section2/PersonThisSuper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/NormalGetterSetter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chap03/section3/TwoLambdaParam.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chap03/section3/TwoLambdaParam.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,37 +84,37 @@
       <recent name="edu" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ForOddSumKt">
-    <configuration name="ForOddSumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap04.section2.ForOddSumKt" />
+  <component name="RunManager" selected="Kotlin.BirdSecondaryConstructorKt">
+    <configuration name="BirdClassDefineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap05.section1.BirdClassDefineKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForSumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap04.section1.ForSumKt" />
+    <configuration name="BirdSecondaryConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap05.section2.BirdSecondaryConstructorKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForTriangleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap04.section2.ForTriangleKt" />
+    <configuration name="Problem1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap04.section3.Problem1Kt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenAnyCaseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap04.section1.WhenAnyCaseKt" />
+    <configuration name="Problem2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap04.section3.Problem2Kt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenNoArgsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap04.section1.WhenNoArgsKt" />
+    <configuration name="Problem3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap04.section3.Problem3Kt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ForOddSumKt" />
-        <item itemvalue="Kotlin.ForTriangleKt" />
-        <item itemvalue="Kotlin.ForSumKt" />
-        <item itemvalue="Kotlin.WhenAnyCaseKt" />
-        <item itemvalue="Kotlin.WhenNoArgsKt" />
+        <item itemvalue="Kotlin.BirdSecondaryConstructorKt" />
+        <item itemvalue="Kotlin.BirdClassDefineKt" />
+        <item itemvalue="Kotlin.Problem3Kt" />
+        <item itemvalue="Kotlin.Problem2Kt" />
+        <item itemvalue="Kotlin.Problem1Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +143,7 @@
       <workItem from="1654781098598" duration="107000" />
       <workItem from="1654781222230" duration="1117000" />
       <workItem from="1654823538243" duration="2206000" />
-      <workItem from="1654825896633" duration="9129000" />
+      <workItem from="1654825896633" duration="18631000" />
     </task>
     <task id="LOCAL-00001" summary="0609 ver.1">
       <created>1654750457676</created>
@@ -181,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654762559473</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0610 ver.1">
+      <created>1654842597966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654842597966</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +201,7 @@
     <MESSAGE value="0609 ver.1" />
     <MESSAGE value="0609 ver.2" />
     <MESSAGE value="0609 ver.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="0609 ver.3" />
+    <MESSAGE value="0610 ver.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="0610 ver.1" />
   </component>
 </project>
