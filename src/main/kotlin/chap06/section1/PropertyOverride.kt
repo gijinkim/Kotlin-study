@@ -1,4 +1,4 @@
-package chap06
+package chap06.section1
 
 open class First{
     open val x:Int = 0

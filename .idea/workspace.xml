@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0610 ver.2">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/PropertyOverride.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section1/CustomGetterSetterBackingProperty.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section1/GetterSetterTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section1/NormalGetterSetter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section2/ByLazyObj.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section2/ByLazyTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section2/DelegatePropertyVetoable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section2/DelegatedClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section2/DelegatedProperty.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section2/LateinitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section3/CompanionObjectTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section3/ObjectDeclaration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section3/PackageLevelFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chap06/FakeAgeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section1/FakeAgeTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chap06/NormalGetterSetter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chap06/PropertyOverride.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section1/PropertyOverride.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +84,7 @@
       <recent name="C:\Users\htbeyond\IdeaProjects\KotlinProgramming\src\main\kotlin\chap03\section1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\김기진\IdeaProjects\Kotlin-study\src\main\kotlin\chap06\section1" />
       <recent name="C:\Users\htbeyond\IdeaProjects\KotlinProgramming\src\main\kotlin\chap03\section1" />
       <recent name="C:\Users\htbeyond\IdeaProjects\KotlinProgramming\src\main\kotlin" />
     </key>
@@ -74,37 +92,37 @@
       <recent name="edu" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PropertyOverrideKt">
-    <configuration name="BirdClassDefineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap05.section1.BirdClassDefineKt" />
+  <component name="RunManager" selected="Kotlin.PackageLevelFunctionKt">
+    <configuration name="CompanionObjectTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap06.section3.CompanionObjectTestKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BirdSecondaryConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap05.section2.BirdSecondaryConstructorKt" />
+    <configuration name="DelegatePropertyVetoableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap06.section2.DelegatePropertyVetoableKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap04.section3.Problem2Kt" />
+    <configuration name="DelegatedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap06.section2.DelegatedClassKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap04.section3.Problem3Kt" />
+    <configuration name="DelegatedPropertyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap06.section2.DelegatedPropertyKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertyOverrideKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap06.PropertyOverrideKt" />
+    <configuration name="PackageLevelFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap06.section3.PackageLevelFunctionKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.PropertyOverrideKt" />
-        <item itemvalue="Kotlin.BirdSecondaryConstructorKt" />
-        <item itemvalue="Kotlin.BirdClassDefineKt" />
-        <item itemvalue="Kotlin.Problem3Kt" />
-        <item itemvalue="Kotlin.Problem2Kt" />
+        <item itemvalue="Kotlin.PackageLevelFunctionKt" />
+        <item itemvalue="Kotlin.CompanionObjectTestKt" />
+        <item itemvalue="Kotlin.DelegatePropertyVetoableKt" />
+        <item itemvalue="Kotlin.DelegatedPropertyKt" />
+        <item itemvalue="Kotlin.DelegatedClassKt" />
       </list>
     </recent_temporary>
   </component>

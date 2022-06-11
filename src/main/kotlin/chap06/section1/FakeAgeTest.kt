@@ -1,4 +1,4 @@
-package chap06
+package chap06.section1
 
 fun main() {
    val kim = FakeAge()
