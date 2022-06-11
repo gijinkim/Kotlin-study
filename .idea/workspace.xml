@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0610 ver.1">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section3/ObjectExpressionSuperMan.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/AbstractObject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/AbstractVehicle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/InterfacePet.kt" afterDir="false" />
+    <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0610 ver.2">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/CatAndDog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/CoffeeModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/ElectricHeater.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/Heater.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/MyDripCoffeeModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/PegasusTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/Pump.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/Thermosiphon.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/InterfacePet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/InterfacePet.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +84,7 @@
       <recent name="edu" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.InterfacePetKt">
+  <component name="RunManager" selected="Kotlin.PegasusTestKt">
     <configuration name="AbstractObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap07.section1.AbstractObjectKt" />
       <module name="KotlinProgramming.main" />
@@ -87,15 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompanionObjectTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap06.section3.CompanionObjectTestKt" />
-      <module name="KotlinProgramming.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DelegatePropertyVetoableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap06.section2.DelegatePropertyVetoableKt" />
+    <configuration name="CatAndDogKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap07.section1.CatAndDogKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,13 +113,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PegasusTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap07.section1.PegasusTestKt" />
+      <module name="KotlinProgramming.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PegasusTestKt" />
+        <item itemvalue="Kotlin.CatAndDogKt" />
         <item itemvalue="Kotlin.InterfacePetKt" />
         <item itemvalue="Kotlin.AbstractObjectKt" />
         <item itemvalue="Kotlin.PackageLevelFunctionKt" />
-        <item itemvalue="Kotlin.CompanionObjectTestKt" />
-        <item itemvalue="Kotlin.DelegatePropertyVetoableKt" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +144,8 @@
       <workItem from="1654781222230" duration="1117000" />
       <workItem from="1654823538243" duration="2206000" />
       <workItem from="1654825896633" duration="19125000" />
+      <workItem from="1654934608357" duration="42000" />
+      <workItem from="1654948919621" duration="4028000" />
     </task>
     <task id="LOCAL-00001" summary="0609 ver.1">
       <created>1654750457676</created>
@@ -189,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654931214681</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="0610 ver.2">
+      <created>1654934642254</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654934642254</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,8 +224,8 @@
     <MESSAGE value="0609 ver.1" />
     <MESSAGE value="0609 ver.2" />
     <MESSAGE value="0609 ver.3" />
-    <MESSAGE value="0610 ver.2" />
     <MESSAGE value="0610 ver.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="0610 ver.1" />
+    <MESSAGE value="0610 ver.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="0610 ver.2" />
   </component>
 </project>
