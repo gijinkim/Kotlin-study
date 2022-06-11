@@ -4,25 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0610 ver.2">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section1/CustomGetterSetterBackingProperty.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section1/GetterSetterTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section1/NormalGetterSetter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section2/ByLazyObj.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section2/ByLazyTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section2/DelegatePropertyVetoable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section2/DelegatedClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section2/DelegatedProperty.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section2/LateinitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section3/CompanionObjectTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section3/ObjectDeclaration.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section3/PackageLevelFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0610 ver.1">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section3/ObjectExpressionSuperMan.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/AbstractObject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/AbstractVehicle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/InterfacePet.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chap06/FakeAgeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section1/FakeAgeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chap06/NormalGetterSetter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chap06/PropertyOverride.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chap06/section1/PropertyOverride.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +79,14 @@
       <recent name="edu" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PackageLevelFunctionKt">
+  <component name="RunManager" selected="Kotlin.InterfacePetKt">
+    <configuration name="AbstractObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap07.section1.AbstractObjectKt" />
+      <module name="KotlinProgramming.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompanionObjectTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap06.section3.CompanionObjectTestKt" />
       <module name="KotlinProgramming.main" />
@@ -107,15 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DelegatedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap06.section2.DelegatedClassKt" />
-      <module name="KotlinProgramming.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DelegatedPropertyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap06.section2.DelegatedPropertyKt" />
+    <configuration name="InterfacePetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap07.section1.InterfacePetKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.InterfacePetKt" />
+        <item itemvalue="Kotlin.AbstractObjectKt" />
         <item itemvalue="Kotlin.PackageLevelFunctionKt" />
         <item itemvalue="Kotlin.CompanionObjectTestKt" />
         <item itemvalue="Kotlin.DelegatePropertyVetoableKt" />
-        <item itemvalue="Kotlin.DelegatedPropertyKt" />
-        <item itemvalue="Kotlin.DelegatedClassKt" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654853554273</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="0610 ver.1">
+      <created>1654931214681</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654931214681</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,8 +210,8 @@
     <MESSAGE value="0609 ver.1" />
     <MESSAGE value="0609 ver.2" />
     <MESSAGE value="0609 ver.3" />
-    <MESSAGE value="0610 ver.1" />
     <MESSAGE value="0610 ver.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="0610 ver.2" />
+    <MESSAGE value="0610 ver.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="0610 ver.1" />
   </component>
 </project>
