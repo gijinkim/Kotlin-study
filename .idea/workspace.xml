@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0610 ver.2">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/CatAndDog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/CoffeeModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/ElectricHeater.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/Heater.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/MyDripCoffeeModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/PegasusTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/Pump.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/Thermosiphon.kt" afterDir="false" />
+    <list default="true" id="3fa32385-1626-4ee3-a78a-fb276245251c" name="Changes" comment="0611 ver.2">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section2/DataClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section2/EnumClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section2/InnerClassTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section2/NestedClassTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section2/SealedClassTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/InterfacePet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chap07/section1/InterfacePet.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,37 +80,37 @@
       <recent name="edu" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PegasusTestKt">
-    <configuration name="AbstractObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap07.section1.AbstractObjectKt" />
+  <component name="RunManager" selected="Kotlin.EnumClassKt">
+    <configuration name="DataClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap07.section2.DataClassKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatAndDogKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap07.section1.CatAndDogKt" />
+    <configuration name="EnumClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap07.section2.EnumClassKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfacePetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap07.section1.InterfacePetKt" />
+    <configuration name="InnerClassTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap07.section2.InnerClassTestKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageLevelFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap06.section3.PackageLevelFunctionKt" />
+    <configuration name="NestedClassTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap07.section2.NestedClassTestKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PegasusTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap07.section1.PegasusTestKt" />
+    <configuration name="SealedClassTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap07.section2.SealedClassTestKt" />
       <module name="KotlinProgramming.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.PegasusTestKt" />
-        <item itemvalue="Kotlin.CatAndDogKt" />
-        <item itemvalue="Kotlin.InterfacePetKt" />
-        <item itemvalue="Kotlin.AbstractObjectKt" />
-        <item itemvalue="Kotlin.PackageLevelFunctionKt" />
+        <item itemvalue="Kotlin.EnumClassKt" />
+        <item itemvalue="Kotlin.SealedClassTestKt" />
+        <item itemvalue="Kotlin.InnerClassTestKt" />
+        <item itemvalue="Kotlin.NestedClassTestKt" />
+        <item itemvalue="Kotlin.DataClassKt" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +141,9 @@
       <workItem from="1654823538243" duration="2206000" />
       <workItem from="1654825896633" duration="19125000" />
       <workItem from="1654934608357" duration="42000" />
-      <workItem from="1654948919621" duration="4028000" />
+      <workItem from="1654948919621" duration="4674000" />
+      <workItem from="1654961465203" duration="2120000" />
+      <workItem from="1654996348385" duration="4980000" />
     </task>
     <task id="LOCAL-00001" summary="0609 ver.1">
       <created>1654750457676</created>
@@ -203,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654934642254</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="0611 ver.2">
+      <created>1654953980607</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654953980607</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +231,7 @@
     <MESSAGE value="0609 ver.3" />
     <MESSAGE value="0610 ver.1" />
     <MESSAGE value="0610 ver.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="0610 ver.2" />
+    <MESSAGE value="0611 ver.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="0611 ver.2" />
   </component>
 </project>
